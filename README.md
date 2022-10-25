@@ -10,6 +10,9 @@
 Table 1: Performance comparison on the 7Scenes-Chess dataset. Noted our model is without much finetuning, but can still achieve comparable performance.
 
 
+
+
+
 | Category | Model           | Loop Mean   | Speed  | Inference DB Space |
 |----------|-----------------|-------------|--------|--------------------|
 | GPS      | GPS             | 7.03/-      | 50 FPS | -                  |
@@ -23,6 +26,8 @@ Table 1: Performance comparison on the 7Scenes-Chess dataset. Noted our model is
 Table 2: Performance comparison for different kinds of technologies for localization
 
 
+
+
 | Model                     | 3D Model   | Inference Database | Global Accuracy | Local Accuracy | Speed  |
 |---------------------------|------------|--------------------|-----------------|----------------|--------|
 | 2D-3D key points matching | need       | need               | high            | high           | slow   |
@@ -33,4 +38,6 @@ Table 2: Performance comparison for different kinds of technologies for localiza
 | Camera Pose Regression    | -          | -                  | medium          | medium         | fast   |
 
 Table 3: Advantages and disadvantages for different kinds of technologies for localization. 
+
+
 
