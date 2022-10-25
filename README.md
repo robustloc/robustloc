@@ -92,3 +92,46 @@ Table 2: Performance Comparision on the 4Seasons dataset.
 | RobustLoc(ours) | 8.12 / 3.83   | 5.34 / 1.53 | 27.75 / 9.70  | 11.59 / 2.64    | 10.06 / 4.95          | 5.18 / 1.43           |
 
 Table 3: Performance Comparision on the Perturbed RobotCar dataset.
+
+
+
+
+| Method                    | Mean Error (meter/degree) on Loop (c.) |
+|:-------------------------:|:--------------------------------------:|
+| base model                | 8.38 / 4.29                            |
+|  + feature map graph      | 7.01 / 3.86                            |
+|  + vector embedding graph | 6.24 / 3.21                            |
+|  + diffusion              | 5.53 / 2.95                            |
+|  +  branched decoder      | 5.14 / 2.79                            |
+|  +  multi-level decoding  | 4.68 / 2.67                            |
+| diffusion at stage 3      | 5.27 / 2.90                            |
+| diffusion at stage 3,4    | 4.86 / 3.18                            |
+| diffusion at stage 4      | 4.68 / 2.67                            |
+| multi-layer concatenation | 5.80 / 3.26                            |
+| more augmentation         | 4.68 / 2.67                            |
+| less augmentation         | 5.32 / 3.17                            |
+
+Table 4: Main ablation study.
+
+
+
+| Method           | Mean Error (meter/degree) on Full      |
+|:----------------:|:--------------------------------------:|
+| grid graph       | 15.67 / 2.95                           |
+| self-cross graph | 15.31 / 3.28                           |
+| complete graph   | 9.37 / 2.47                            |
+|                  | Mean Error (degree) on Business Campus |
+| quaternion       | 2.23                                   |
+| Lie group        | 2.2                                    |
+| rotation matrix  | 2.25                                   |
+| log (quaternion) | 2.04                                   |
+
+Table 5: Graph design comparison.
+
+
+| #frames         | 3    | 5    | 7    | 9    | 11   |
+|:---------------:|:----:|:----:|:----:|:----:|:----:|
+| Speed (iters/s) | 56   | 55   | 53   | 52   | 50   |
+| Mean Error (m)  | 5.28 | 5.09 | 4.96 | 4.68 | 4.72 |
+
+Table 6: Performance using different number of frames.
