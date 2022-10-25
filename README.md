@@ -6,7 +6,7 @@
 | AnchorPoint     | 0.06/3.9                            |
 | GNNMapNet       | 0.08/2.8                            |
 | RobustLoc(ours) | 0.08/2.6                            |
-
+Table 1: Performance comparison on the 7Scenes-Chess dataset. Noted our model is without much finetuning, but can still achieve comparable performance.
 
 
 | Category | Model           | Loop Mean   | Speed  | Inference DB Space |
@@ -18,6 +18,7 @@
 | CPR      | MapNet+GPS      | 6.78/2.72   | 50 FPS | -                  |
 | CPR      | MapNet+VO       | 6.73/2.23   | 15 FPS | 10 MB              |
 | CPR      | RobustLoc       | 2.23/1.37   | 50 FPS | -                  |
+Table 2: Performance comparison for different kinds of technologies for localization
 
 
 | Model                     | 3D Model   | Inference Database | Global Accuracy | Local Accuracy | Speed  |
@@ -28,5 +29,5 @@
 | SLAM                      | increasing | increasing         | low             | high           | medium |
 | Image Retrieval           | -          | need               | medium          | medium         | slow   |
 | Camera Pose Regression    | -          | -                  | medium          | medium         | fast   |
-
+Table 3: Advantages and disadvantages for different kinds of technologies for localization. 
 
