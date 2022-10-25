@@ -9,7 +9,7 @@
 | RobustLoc(ours) | 0.08/2.6                            |
 
 
-Table R1: Performance comparison on the 7Scenes-Chess dataset. Noted our model is without much finetuning, but can still achieve comparable performance.
+Table 1: Performance comparison on the 7Scenes-Chess dataset. Noted our model is without much finetuning, but can still achieve comparable performance.
 
 
 
@@ -26,7 +26,7 @@ Table R1: Performance comparison on the 7Scenes-Chess dataset. Noted our model i
 | CPR      | RobustLoc       | 2.23/1.37   | 50 FPS | -                  |
 
 
-Table R2: Performance comparison for different kinds of technologies for localization
+Table 2: Performance comparison for different kinds of technologies for localization
 
 
 
@@ -41,7 +41,7 @@ Table R2: Performance comparison for different kinds of technologies for localiz
 | Camera Pose Regression    | -          | -                  | medium          | medium         | fast   |
 
 
-Table R3: Advantages and disadvantages for different kinds of technologies for localization. 
+Table 3: Advantages and disadvantages for different kinds of technologies for localization. 
 
 
 | Model            | Loop (cross.) | Loop (cross.) | Loop (within.) | Loop (within.) | Full       | Full       |
@@ -60,7 +60,7 @@ Table R3: Advantages and disadvantages for different kinds of technologies for l
 | CoordiNet        | -             | -             | 4.06/1.44      | 2.42/0.88      | 14.96/5.74 | 3.55/1.14  |
 | RobustLoc(ours)  | 4.68/2.67     | 3.70/1.50     | 2.49/1.40      | 1.97/0.84      | 9.37/2.47  | 5.93/1.06  |
 
-Table 1: Performance comparision on the Oxford RobotCar dataset.
+Table 4: Performance comparision on the Oxford RobotCar dataset.
 
 
 
@@ -76,7 +76,7 @@ Table 1: Performance comparision on the Oxford RobotCar dataset.
 | CoordiNet       | 11.52/3.44 | 6.44/1.38 | 1.75/0.86    | 0.37/0.69    | 43.68/3.58 | 11.83/1.36 |
 | RobustLoc(ours) | 4.28/2.04  | 2.55/1.50 | 1.36/0.83    | 1.00/0.65    | 21.65/2.41 | 5.52/1.05  |
 
-Table 2: Performance comparision on the 4Seasons dataset.
+Table 5: Performance comparision on the 4Seasons dataset.
 
 
 | Model           | Medium        | Medium      | Hard          | Hard            | Hard + Noisy Training | Hard + Noisy Training |
@@ -91,7 +91,7 @@ Table 2: Performance comparision on the 4Seasons dataset.
 | CoordiNet       | 17.67 / 6.66  | 7.63 / 1.79 | 44.11 / 16.42 | 17.21 / 2.70    | 24.06 / 12.27         | 6.25 / 1.61           |
 | RobustLoc(ours) | 8.12 / 3.83   | 5.34 / 1.53 | 27.75 / 9.70  | 11.59 / 2.64    | 10.06 / 4.95          | 5.18 / 1.43           |
 
-Table 3: Performance comparision on the Perturbed RobotCar dataset.
+Table 6: Performance comparision on the Perturbed RobotCar dataset.
 
 
 
@@ -111,7 +111,7 @@ Table 3: Performance comparision on the Perturbed RobotCar dataset.
 | more augmentation         | 4.68 / 2.67                            |
 | less augmentation         | 5.32 / 3.17                            |
 
-Table 4: Main ablation study.
+Table 7: Main ablation study.
 
 
 
@@ -126,7 +126,7 @@ Table 4: Main ablation study.
 | rotation matrix  | 2.25                                   |
 | log (quaternion) | 2.04                                   |
 
-Table 5: Graph design comparison.
+Table 8: Graph design comparison.
 
 
 | #frames         | 3    | 5    | 7    | 9    | 11   |
@@ -134,4 +134,4 @@ Table 5: Graph design comparison.
 | Speed (iters/s) | 56   | 55   | 53   | 52   | 50   |
 | Mean Error (m)  | 5.28 | 5.09 | 4.96 | 4.68 | 4.72 |
 
-Table 6: Performance using different number of frames.
+Table 9: Performance using different number of frames.
