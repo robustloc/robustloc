@@ -80,4 +80,4 @@ def main(robotcar_folder, x4fps, loop):
 
 
 if __name__ == '__main__':
-    main('/data/sijie/loc/RobotCar/', x4fps=False, loop=True)
+    main('/data/abc/loc/RobotCar/', x4fps=False, loop=True)
