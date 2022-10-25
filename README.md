@@ -15,7 +15,7 @@ Table R1: Performance comparison on the 7Scenes-Chess dataset. Noted our model i
 
 
 
-| Category | Model           | Loop Mean   | Speed  | Inference DB Space |
+| Category | Model           | Loop Mean Error | Speed  | Inference DB Space |
 |:--------:|:---------------:|:-----------:|:------:|:------------------:|
 | GPS      | GPS             | 7.03/-      | 50 FPS | -                  |
 | VO       | Stereo Odometry | 40.20/12.85 | 15 FPS | 10 MB              |
