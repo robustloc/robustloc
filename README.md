@@ -26,7 +26,7 @@ Table 1: Performance comparison on the 7Scenes-Chess dataset. Noted our model is
 | CPR      | RobustLoc       | 2.23/1.37   | 50 FPS | -                  |
 
 
-Table 2: Performance comparison for different kinds of technologies for localization
+Table 2: Performance comparison for different methods for localization
 
 
 
@@ -41,7 +41,7 @@ Table 2: Performance comparison for different kinds of technologies for localiza
 | Camera Pose Regression    | -          | -                  | medium          | medium         | fast   |
 
 
-Table 3: Advantages and disadvantages for different kinds of technologies for localization. 
+Table 3: Advantages and disadvantages for different methods for localization. 
 
 
 | Model            | Loop (cross.) | Loop (cross.) | Loop (within.) | Loop (within.) | Full       | Full       |
