@@ -46,7 +46,7 @@ Table R3: Advantages and disadvantages for different kinds of technologies for l
 
 | Model            | Loop (cross.) | Loop (cross.) | Loop (within.) | Loop (within.) | Full       | Full       |
 |:----------------:|:-------------:|:-------------:|:--------------:|:--------------:|:----------:|:----------:|
-|                  | Mean          | Median        | Mean           | Median         | Mean       | Median     |
+|                  | Mean Error         | Median Error        | Mean Error           | Median Error         | Mean Error       | Median Error     |
 | GNNMapNet + post | 7.96/2.56     | -             | -              | -              | 17.35/3.47 | -          |
 | ADPoseNet        | -             | -             | -              | 6.40/3.09      | -          | 33.82/6.77 |
 | ADMapNet         | -             | -             | -              | 6.45/2.98      | -          | 19.18/4.60 |
@@ -66,7 +66,7 @@ Table 1: Performance Comparision on the Oxford RobotCar dataset.
 
 | Model           | Business.  | Business. | Neighborhood | Neighborhood | Old Town   | Old Town   |
 |:---------------:|:----------:|:---------:|:------------:|:------------:|:----------:|:----------:|
-|                 | Mean       | Median    | Mean         | Median       | Mean       | Median     |
+|                 | Mean Error       | Median Error    | Mean Error         | Median Error       | Mean Error       | Median Error     |
 | GeoPoseNet      | 11.04/5.78 | 5.93/2.03 | 2.87/1.30    | 1.92/0.88    | 64.81/6.67 | 15.03/1.57 |
 | MapNet          | 10.35/3.78 | 5.66/1.83 | 2.81/1.05    | 1.89/0.92    | 46.56/7.14 | 16.52/2.12 |
 | GNNMapNet       | 7.69/4.34  | 5.52/2.16 | 3.02/2.92    | 2.14/1.45    | 41.54/7.30 | 19.23/3.26 |
@@ -81,7 +81,7 @@ Table 2: Performance Comparision on the 4Seasons dataset.
 
 | Model           | Medium        | Medium      | Hard          | Hard            | Hard + Noisy Training | Hard + Noisy Training |
 |:---------------:|:-------------:|:-----------:|:-------------:|:---------------:|:---------------------:|:---------------------:|
-|                 | Mean          | Median      | Mean          | Median          | Mean                  | Median                |
+|                 | Mean Error          | Median Error      | Mean Error          | Median Error          | Mean Error                  | Median Error                |
 | GeoPoseNet      | 20.47 / 8.76  | 8.70 / 2.30 | 41.71 / 17.63 | 14.02 / 3.13    | 24.03 / 11.14         | 7.14 / 1.70           |
 | MapNet          | 17.93 / 7.01  | 6.89 / 2.00 | 49.36 / 20.01 | 18.37 / 2.58    |  21.22 / 8.38         | 6.38 / 1.97           |
 | GNNMapNet       | 16.17 / 7.24  | 8.02 / 2.35 | 73.97 / 35.57 |  61.47 / 19.73  | 14.55 / 7.62          | 6.69 / 1.57           |
